@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="这是一个接口测试报告">
+    <test name="Demo1">
+        <classes>
+            <class name="com.kenny.testng.extentReport.TestMethodDemo">
+                <methods>
+                    <include name="test1" />
+                    <include name="test2" />
+                    <include name="test3" />
+                    <include name="logDemo" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.vimalselvam.testng.listener"></listener>
+    </listeners>
+</suite>
