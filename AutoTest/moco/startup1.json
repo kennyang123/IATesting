@@ -1,0 +1,15 @@
+[
+  {
+    "description":"这是我们的第一个moco例子",
+    "request":{
+      "uri":"/api/v1/organization/staffs/me"
+    },
+    "response":{
+      "text":"这是我们的第一个moco响应",
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      }
+    }
+
+  }
+]

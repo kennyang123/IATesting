@@ -1,0 +1,25 @@
+[
+  {
+    "description":"这是一个带header的post请求",
+    "request":{
+      "uri":"/post/with/header",
+      "method":"post",
+      "cookies":{
+        "login":"true"
+      },
+      "headers":{
+        "Content-Type":"application/json"
+      },
+      "json":{
+        "name":"zhangsan",
+        "age":"111"
+      }
+    },
+    "response":{
+        "json":{
+          "msg":"成功了",
+          "code":"000"
+        }
+    }
+  }
+]

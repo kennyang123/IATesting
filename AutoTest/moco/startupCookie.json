@@ -1,0 +1,39 @@
+[
+  {
+    "description":"模拟一个带cookie的get请求",
+    "request":{
+      "uri":"/get/with/cookies",
+      "method":"get",
+      "cookies":{
+        "login":"true"
+      }
+    },
+    "response":{
+      "text":"2这是一个带cookie的get请求",
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      }
+    }
+  },
+    {
+      "description":"模拟一个带cookie的Post请求",
+      "request":{
+        "uri":"/post/with/cookies",
+        "method":"post",
+        "cookies":{
+          "login":"true"
+        },
+        "json":{
+        "name":"yxp",
+        "age":"32"
+        }
+      },
+      "response":{
+        "status":"200",
+        "json":{
+            "yxp":"success",
+            "code":"000"
+        }
+      }
+    }
+]
